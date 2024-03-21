@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: wheat;
+    border-radius: 20px;
+}
+
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: darkcyan;
+    border-radius: 20px;
+}
+
+h1{
+    color: red;
+    font-size: 50px;
+}
+
+h2{
+    color: red;
+    font-size: 40px;
+}
+
+h3{
+    color: red;
+    font-size: 30px;
+}
