@@ -12,9 +12,8 @@ gsap.from("#page2 .box",{
     scrollTrigger:{
         trigger: "#page2 .box",
         scroller: "body",
-        // markers: true,
-        start: "top 50%",
-        end: "top 30%",
+        markers: true,
+        end: "top 60%",
         scrub: 1
     }
 })
