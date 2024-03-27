@@ -10,12 +10,31 @@ html,body{
     width: 100%;
 }
 
+#loader{
+    height: 100%;
+    width: 100%;
+    color: black;
+    background-color: white;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loader h1{
+    color: black;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 #main{
     height: 100%;
     width: 100%;
 }
 
 #page1{
+    overflow: hidden;
     height: 100%;
     width: 100%;
     background-color: black;
@@ -23,7 +42,6 @@ html,body{
     white-space: nowrap;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    overflow-x: hidden;
 }
 
 #page1 p{
