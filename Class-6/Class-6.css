@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: salmon;
+}
+
+#page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: cyan;
+}
+
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: chartreuse;
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: seagreen;
+}
