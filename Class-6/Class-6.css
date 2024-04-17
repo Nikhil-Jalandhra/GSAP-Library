@@ -29,6 +29,7 @@ html,body{
     height: 400px;
     width: 400px;
     background-color: chartreuse;
+    border-radius: 100%;
 }
 
 #page3{
